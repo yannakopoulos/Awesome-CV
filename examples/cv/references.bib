@@ -1,45 +1,78 @@
-%-------------------------------------------------------------------------------
-%	REPLACE WITH YOUR PUBLICATIONS
-%-------------------------------------------------------------------------------
 
-@Article{Khan2014Incentive,
-  author =  {Khan, Amin M and B{\"{u}}y{\"{u}}ksahin, {\"{U}}mit C. and Freitag, Felix},
-  title =   {{Incentive-based resource assignment and regulation for collaborative cloud services in community networks}},
-  journal = {Journal of Computer and System Sciences},
-  year =    {2015},
-  volume =  {81},
-  number =  {8},
-  pages =   {1479--1495},
-  month =   dec,
-  doi =     {10.1016/j.jcss.2014.12.023},
-  issn =    {00220000},
-  url =     {http://www.sciencedirect.com/science/article/pii/S0022000014001871 http://linkinghub.elsevier.com/retrieve/pii/S0022000014001871}
+@article{Liu2019,
+title = {Supervised-learning is an accurate method for network-based gene classification},
+copyright = {© 2019, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/},
+url = {https://www.biorxiv.org/content/10.1101/721423v1},
+doi = {10.1101/721423},
+abstract = {{\textless}h3{\textgreater}Abstract{\textless}/h3{\textgreater} {\textless}h3{\textgreater}Background{\textless}/h3{\textgreater} {\textless}p{\textgreater}Assigning every human gene to specific functions, diseases, and traits is a grand challenge in modern genetics. Key to addressing this challenge are computational methods such as supervised-learning and label-propagation that can leverage molecular interaction networks to predict gene attributes. In spite of being a popular machine learning technique across fields, supervised-learning has been applied only in a few network-based studies for predicting pathway-, phenotype-, or disease-associated genes. It is unknown how supervised-learning broadly performs across different networks and diverse gene classification tasks, and how it compares to label-propagation, the widely-benchmarked canonical approach for this problem.{\textless}/p{\textgreater}{\textless}h3{\textgreater}Results{\textless}/h3{\textgreater} {\textless}p{\textgreater}In this study, we present a comprehensive benchmarking of supervised-learning for network-based gene classification, evaluating this approach and a state-of-the-art label-propagation technique on hundreds of diverse prediction tasks and multiple networks using stringent evaluation schemes. We demonstrate that supervised-learning on a gene’s full network connectivity outperforms label-propagation and achieves high prediction accuracy by efficiently capturing local network properties, rivaling label-propagation’s appeal for naturally using network topology. We further show that supervised-learning on the full network is also superior to learning on node-embeddings (derived using \textit{node2vec}), an increasingly popular approach for concisely representing network connectivity.{\textless}/p{\textgreater}{\textless}h3{\textgreater}Conclusion{\textless}/h3{\textgreater} {\textless}p{\textgreater}These results show that supervised-learning is an accurate approach for prioritizing genes associated with diverse functions, diseases, and traits and should be considered a staple of network-based gene classification workflows. The datasets and the code used to reproduce the results and add new gene classification methods have been made freely available.{\textless}/p{\textgreater}{\textless}h3{\textgreater}Contact{\textless}/h3{\textgreater} {\textless}p{\textgreater}arjun@msu.edu{\textless}/p{\textgreater}},
+language = {en},
+urldate = {2019-09-20},
+journal = {bioRxiv},
+author = {Liu, Renming and Mancuso, Christopher A. and Yannakopoulos, Anna and Johnson, Kayla A. and Krishnan, Arjun},
+month = aug,
+year = {2019},
+pages = {721423},
+file = {Full Text PDF:/home/anna/Documents/Zotero/storage/CMJGGYGA/Liu et al. - 2019 - Supervised-learning is an accurate method for netw.pdf:application/pdf;Snapshot:/home/anna/Documents/Zotero/storage/ZWL3GQ7V/721423v1.html:text/html}
 }
 
-@Article{Selimi2015Cloud,
-  author =  {Selimi, Mennan and Khan, Amin M and Dimogerontakis, Emmanouil and Freitag, Felix and Centelles, Roger Pueyo},
-  title =   {{Cloud services in the Guifi.net community network}},
-  journal = {Computer Networks},
-  year =    {2015},
-  volume =  {93},
-  number =  {P2},
-  pages =   {373--388},
-  month =   dec,
-  doi =     {10.1016/j.comnet.2015.09.007},
-  issn =    {13891286},
-  url =     {http://linkinghub.elsevier.com/retrieve/pii/S1389128615003175}
+@article{Wolf2017,
+abstract = {{\textcopyright} Published under licence by IOP Publishing Ltd. We previously described Lobster, a workflow management tool for exploiting volatile opportunistic computing resources for computation in HEP. We will discuss the various challenges that have been encountered while scaling up the simultaneous CPU core utilization and the software improvements required to overcome these challenges. Categories: Workflows can now be divided into categories based on their required system resources. This allows the batch queueing system to optimize assignment of tasks to nodes with the appropriate capabilities. Within each category, limits can be specified for the number of running jobs to regulate the utilization of communication bandwidth. System resource specifications for a task category can now be modified while a project is running, avoiding the need to restart the project if resource requirements differ from the initial estimates. Lobster now implements time limits on each task category to voluntarily terminate tasks. This allows partially completed work to be recovered. Workflow dependency specification: One workflow often requires data from other workflows as input. Rather than waiting for earlier workflows to be completed before beginning later ones, Lobster now allows dependent tasks to begin as soon as sufficient input data has accumulated. Resource monitoring: Lobster utilizes a new capability in Work Queue to monitor the system resources each task requires in order to identify bottlenecks and optimally assign tasks. The capability of the Lobster opportunistic workflow management system for HEP computation has been significantly increased. We have demonstrated efficient utilization of 25 000 non-dedicated cores and achieved a data input rate of 30 Gb/s and an output rate of 500GB/h. This has required new capabilities in task categorization, workflow dependency specification, and resource monitoring.},
+author = {Wolf, M. and Woodard, A. and Li, W. and Anampa, K.H. and Yannakopoulos, A. and Tovar, B. and Donnelly, P. and Brenner, P. and Lannon, K. and Hildreth, M. and Thain, D.},
+doi = {10.1088/1742-6596/898/5/052036},
+issn = {17426596},
+journal = {Journal of Physics: Conference Series},
+number = {5},
+title = {{Opportunistic Computing with Lobster: Lessons Learned from Scaling up to 25k Non-Dedicated Cores}},
+volume = {898},
+year = {2017}
 }
 
-@InProceedings{Khan2014Prototyping,
-  author =    {Khan, Amin M and Buyuksahin, Umit Cavus and Freitag, Felix},
-  title =     {{Prototyping Incentive-Based Resource Assignment for Clouds in Community Networks}},
-  booktitle = {28th IEEE International Conference on Advanced Information Networking and Applications (AINA 2014)},
-  year =      {2014},
-  pages =     {719--726},
-  address =   {Victoria, Canada},
-  month =     may,
-  publisher = {IEEE},
-  doi =       {10.1109/AINA.2014.88},
-  isbn =      {978-1-4799-3630-4},
-  url =       {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6838735}
+@misc{Yannakopoulos2019RECOMB,
+title = {Predicting Alzheimer’s Disease-Associated Protein Biomarkers from Multiple Evidence Sources},
+author = {Yannakopoulos, A. and Bernstein, A. and Vega, I. and Krishnan, A.},
+year = {2019},
+note = {Research in Computational Molecular Biology},
+location = {Washington, DC}
 }
+
+@misc{Yannakopoulos2019WIDS,
+title = {Predicting Alzheimer’s Disease-Associated Protein Biomarkers from Multiple Evidence Sources},
+author = {Yannakopoulos, A. and Bernstein, A. and Vega, I. and Krishnan, A.},
+year = {2019},
+note = {Women in Data Science},
+location = {East Lansing, MI}
+}
+
+
+@misc{Yannakopoulos2018ISMB,
+title = {Disease-Gene Prediction Using Multiple Sources of Evidence},
+author = {Yannakopoulos, A. and Bernstein, A. and Krishnan, A.},
+year = {2018},
+note = {Intelligent Systems for Molecular Biology},
+location = {Chicago, IL}
+}
+
+@misc{Yannakopoulos2018MSU,
+title = {Weak Semi-Supervised Machine Learning on Genomics Data},
+author = {Yannakopoulos, A. and Bernstein, A. and Krishnan, A.},
+year = {2018},
+note = {Michigan State University Engineering Graduate Research Symposium},
+location = {East Lansing, MI}
+}
+
+@misc{Yannakopoulos2016,
+title = {Visualizing and Troubleshooting Massive Science Applications with ELK},
+author = {Yannakopoulos, A. and Lannon, K.},
+year = {2016},
+note = {Research Experiences for Undergraduates Symposium},
+location = {Arlington, VA}
+}
+
+@article{Coniglio2016,
+title = {High magnetic field calibration using de Haas-van Alphen oscillations in polycrystalline copper},
+author = {Coniglio, W. A. and Williams, A. and Yannakopoulos, A. and Grockowiak, A. and Tozer, S.},
+year = {2016},
+journal = {American Physical Society March Meeting},
+location = {Baltimore, MD}
+}
+
