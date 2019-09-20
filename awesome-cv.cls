@@ -780,7 +780,7 @@
     \newunit%
     \printlist{publisher}%
     \setunit*{\addcomma\space}%
-    \printfield{year}%
+    % \printfield{year}%
     \newunit%
   }
   \par\vspace{0.3\baselineskip}
