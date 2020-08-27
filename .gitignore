@@ -7,11 +7,15 @@
 *.fls
 *.out
 *.toc
+*.synctex.gz
 
 ## BibLaTeX auxiliary files:
 *.bbl
 *.bcf
 *.blg
+
+## Biber auxiliary files
+*.run.xml
 
 ## Intermediate documents:
 *.dvi
